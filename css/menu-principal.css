@@ -1,0 +1,26 @@
+.header{
+    background-color: var(--blanco-fondo);
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.15rem 0rem;
+}
+.estrellas{
+    padding-right: 1rem;
+    color: blue;
+}
+.nombre{
+    display: flex;
+}
+
+.menuPrincipal{
+    display: flex;
+    flex-direction: row;
+}
+
+.menuPrincipal__link{
+    padding-left: 2rem;
+}

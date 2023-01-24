@@ -1,0 +1,61 @@
+.contacto{
+    background-color: var(--azul-fondo);
+}
+.contacto .container{
+    display: flex;
+    padding: 8rem 0 4rem 0;
+    justify-content: space-between;
+}
+
+.contacto__imagen{
+    width: 30vw;
+}
+
+.contacto__formulario{
+    width: 40vw;
+}
+
+.contacto__formulario h2{
+    margin-bottom: 0.5rem;
+}
+.contacto button{
+    margin-top: 2rem;
+}
+
+
+.campo{
+    background-color: var(--blanco);
+    margin-top: 2rem;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.campo__etiqueta{
+    display: block;
+    margin-left: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.campo input{
+    margin-left:  0.75rem;
+    border: none;
+    width: 95%;
+}
+
+#campo__mensaje{
+    height: 133px;
+    justify-content: flex-start;
+}
+
+#campo__mensaje textarea{
+    margin-top: 1rem;
+    margin-left:  0.75rem;
+    width: 95%;
+    resize: none;
+    border: none;
+    outline: none;
+}

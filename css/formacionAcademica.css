@@ -1,0 +1,36 @@
+.formacionAcademica{
+    background-color: var(--azul-fondo);
+}
+
+.formacionAcademica .container{
+    padding: 5.125rem 0;
+}
+.formacion__lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacion__logo{
+    width: 25vw;
+    height: 15vw;
+    background-color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.formacion__logo img{
+    width: 130px;
+}
+
+
+
+#universidad{
+    width: 200px;
+}
+
+.sistemasComputacionales{
+    margin: 0 1rem;
+}

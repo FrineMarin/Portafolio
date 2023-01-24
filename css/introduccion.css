@@ -1,0 +1,42 @@
+.introduccion{
+    background-color: var(--blanco-fondo);
+    padding-top: 5.35rem;
+    padding: 5.35rem 0 2rem 0;
+}
+.introduccion .container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.introduccion_resumen{
+    width: 50vw;
+}
+
+.introduccion__titulo{
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 61.05px;
+}
+
+.introduccion__parrafo{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 0.25rem;
+    padding-top: 0.125rem;
+}
+
+.redesSociales__link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding-right: 3.75rem;
+}
+.introduccion__imagen{
+  /*  background: url(../elementos/foto.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    border-radius: 100%;
+    width:20vw
+}

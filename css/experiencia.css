@@ -1,0 +1,33 @@
+.experiencia{
+    background-color: var(--blanco-fondo);
+    padding-top: 2rem;
+}
+
+.experiencia__paginas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.experiencia__descripcion{
+    width: 20vw;
+}
+
+.experiencia__imagen{
+    width: 50vw;
+}
+
+.boton-transparente{
+    background:none;
+    color: var(--azul-boton);
+    border: 1px solid var(--azul-boton);
+}
+
+.boton-azul{
+    background-color: var(--azul-boton);
+    border-radius: 0;
+    border: 1px solid var(--azul-boton);
+    color: var(--blanco);
+}
+

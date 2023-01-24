@@ -1,0 +1,14 @@
+.sobreMi{
+    background-color: var(--azul-fondo);
+}
+.sobreMi .container{
+    padding: 2rem 0;
+}
+
+.sobreMi__parrafo{
+    width: 50vw;
+}
+
+.firma{
+    width: 140px;
+}
