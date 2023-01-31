@@ -2,7 +2,7 @@
     margin-bottom: 0.5rem;
   }
   
-  .input-container--invalid .input {
+  .input-container--invalid .campo__input {
     border: 1px solid var(--warning-color);
     border-radius: 7px;
   }
@@ -16,8 +16,9 @@
   }
   
   .input-container--invalid .input-message-error {
+    font-size: 0.9rem;
     color: var(--warning-color);
     display: block;
     margin-top: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 1.5rem;
   }

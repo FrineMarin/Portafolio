@@ -19,7 +19,15 @@ const tipoDeErrores = [
 
 const mensajesDeError={
   nombre:{
-    valueMissing:"El campo no puede estar vacío",
+    valueMissing:"El campo nombre no puede estar vacío",
+    patternMismatch:"El nombre no puede tener más de 50 caracteres",
+  },
+  email:{
+    valueMissing:"El campo email no puede estar vacío",
+    typeMismatch:"El correo no es válido",
+  },
+  asunto:{
+    valueMissing:"El campo asunto no puede estar vacio",
   }
 }
 

@@ -196,24 +196,24 @@
                             <legend class="subtitulos">¿Quieres contactarme?<br>Complete el siguiente formulario y me
                                 pondré
                                 en contacto con usted lo antes posible.</legend>
-                            <div class="input-container">
-                                <label class="input-label" for="nombre">Nombre</label>
-                                <input name="nombre" type="text" placeholder="Nombre" data-tipo="nombre">
-                                <span class="input-message-error">Este campo no es valido</span>
+                            <div class="campo">
+                                <label class="campo__etiqueta" for="nombre">Nombre</label>
+                                <input class="campo__input" name="nombre" type="text" placeholder="Nombre" data-tipo="nombre" required maxlength="50" >
+                                <span class="input-message-error"></span>
                             </div>
                             <div class="campo">
                                 <label  class="campo__etiqueta" for="email">Email</label>
-                                <input class="campo__input" name="email" type="text" placeholder="email@ejemplo.com">
+                                <input class="campo__input" name="email" type="email" placeholder="email@ejemplo.com" required data-tipo="email" class="input">
                                 
-                                <span></span>
+                                <span class="input-message-error"></span>
                             </div>
                             <div class="campo">
-                                <input type="text" placeholder="Asunto">
-                                <span></span>
+                                <input class="campo__input" type="text" placeholder="Asunto" data-tipo="asunto" required maxlength="50">
+                                <span class="input-message-error" ></span>
                             </div>
-                            <div class="campo" id=" campo__mensaje">
+                            <div class="campo" id="campo__mensaje">
                                 <textarea rows="5" type="text" placeholder="Mensaje"></textarea>
-                                <span></span>
+                                <span class="input-message-error"></span>
                             </div>
                         </fieldset>
                         <button class="boton boton-azul">Enviar mensaje</button>
@@ -223,6 +223,10 @@
             </div>
         </section>
     </main>
+    <footer>
+        <p>Desarrollado por Frine Marín Gómez</p>
+        <p>2023</p>
+    </footer>
     <script src="./js/app.js" type="module"></script>
 </body>
 </html>
