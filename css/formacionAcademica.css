@@ -1,16 +1,21 @@
-.formacionAcademica{
+.formacionAcademica {
     background-color: var(--azul-fondo);
 }
 
-.formacionAcademica .container{
+.formacionAcademica .container {
     padding: 5.125rem 0;
 }
-.formacion__lista{
+
+.formacion__lista {
     display: flex;
     justify-content: space-between;
 }
 
-.formacion__logo{
+.formacion__item {
+    width: 25vw;
+}
+
+.formacion__logo {
     width: 25vw;
     height: 15vw;
     background-color: var(--blanco);
@@ -21,16 +26,34 @@
 
 
 
-.formacion__logo img{
-    width: 130px;
+.formacion__logo img {
+    width: 10vw;
 }
 
 
-
-#universidad{
-    width: 200px;
-}
-
-.sistemasComputacionales{
+.sistemasComputacionales {
     margin: 0 1rem;
+}
+
+@media screen and (max-width:1007px) {}
+
+@media screen and (max-width:640px) {
+    .formacion__lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formacion__item {
+        width: 90vw;
+    }
+
+    .formacion__logo {
+        width: 90vw;
+        height: 20vw;
+    }
+    
+    .formacion__logo img {
+        width: 15vw;
+      }
+
 }

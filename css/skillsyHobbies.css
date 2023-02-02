@@ -10,12 +10,13 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
+    flex-wrap: wrap;
 }
 
 .item{
     background-color: var(--blanco);
-    width: 10vw;
-    height:10vw;
+    width: 15vw;
+    height:174px;
     margin: 2rem 0 5.5rem 0;
     display: flex;
     flex-direction: column;
@@ -33,4 +34,27 @@
     font-size: 16px;
     line-height: 19px;
     margin: 1rem;
+}
+
+@media screen and (max-width:1007px){
+    .item{ 
+        height: 118px;
+        width: 25vw;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+    }
+
+    .syh__lista{
+    justify-content: space-around;
+    }
+
+    .syh__lista{
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:640px){
+    .item{ 
+        width: 40vw;
+    }
 }

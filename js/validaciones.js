@@ -27,7 +27,10 @@ const mensajesDeError={
     typeMismatch:"El correo no es válido",
   },
   asunto:{
-    valueMissing:"El campo asunto no puede estar vacio",
+    valueMissing:"Ingresa un asunto de 50 caracteres o menos",
+  },
+  mensaje:{
+    valueMissing:"Ingresa un mensaje de 300 caracteres o menos",
   }
 }
 

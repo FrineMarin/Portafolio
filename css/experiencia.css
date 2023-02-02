@@ -31,3 +31,22 @@
     color: var(--blanco);
 }
 
+@media screen and (max-width:1007px){
+    .experiencia__paginas {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experiencia__imagen{
+        width: 90vw;
+    }
+
+    .experiencia__descripcion{
+        width: 90vw;
+    }
+
+    .experiencia__imagen{
+        order: -1;
+    }
+}
+

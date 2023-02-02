@@ -12,3 +12,13 @@
 .firma{
     width: 140px;
 }
+
+@media screen and (max-width:1007px){
+    .sobreMi__parrafo {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:640px){
+
+}

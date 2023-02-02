@@ -24,3 +24,13 @@
 .menuPrincipal__link{
     padding-left: 2rem;
 }
+
+.menu__contacto{
+    font-weight: bold;
+}
+
+@media screen and (max-width:1007px) {
+    .menuPrincipal__link{
+        display:none;
+    }
+}

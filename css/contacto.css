@@ -53,7 +53,7 @@
     justify-content: flex-start;
 }
 
-#campo__mensaje textarea{
+.campo__textarea{
     margin-top: 1rem;
     margin-left:  0.75rem;
     width: 95%;
@@ -61,3 +61,22 @@
     border: none;
     outline: none;
 }
+
+@media screen and (max-width:1007px) {
+    .contacto__imagen{
+        display: none;
+    }
+
+    .contacto__formulario {
+        width: 90vw;
+      }
+
+    .contacto .container{
+        padding: 2rem 0;
+     }
+
+     .formacionAcademica .container {
+        padding: 2rem 0;
+      }
+}
+

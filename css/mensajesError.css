@@ -7,6 +7,10 @@
     border-radius: 7px;
   }
   
+  .input-container--invalid .campo__textarea{
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+  }
   .input-container--invalid .input-label {
     color: var(--warning-color);
   }

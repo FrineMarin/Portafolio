@@ -1,6 +1,5 @@
 .introduccion{
     background-color: var(--blanco-fondo);
-    padding-top: 5.35rem;
     padding: 5.35rem 0 2rem 0;
 }
 .introduccion .container{
@@ -39,4 +38,41 @@
     background-repeat: no-repeat;*/
     border-radius: 100%;
     width:20vw
+}
+
+
+@media screen and (max-width:1007px){
+    .introduccion{
+        padding-top:1.5rem;
+    }
+    .introduccion__titulo{
+        font-size: 1.3rem;
+      line-height: 16.44px;
+    }
+    
+    .introduccion__parrafo{
+        font-size: 1rem;
+    }
+
+    .introduccion_resumen{
+        width: fit-content;
+        margin-right:1rem;
+    }
+}
+
+@media screen and (max-width:640px){
+    .container_introduccion{
+        flex-direction:column;
+    }
+
+    .introduccion__imagen{
+        order: -1;
+        width: 30vw;
+        align-self: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    .introduccion_resumen{
+        margin:0;
+    }
 }

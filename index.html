@@ -19,38 +19,39 @@
     <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/mensajesError.css">
+    <link rel="stylesheet" href="css/footer.css">
+
     <link rel="shortcut icon" href="#">
 </head>
 
 <body>
     <header class="header">
-        <div class="container ">
+        <div class="container">
             <div class="nombre">
                 <img src="elementos/Group.svg" alt="Tres estrellas simples" class="estrellas">
                 <a href="">Frine Marin</a>
             </div>
             <nav class="menuPrincipal">
-                <a href="" class="menuPrincipal__link">Sobre mi</a>
-                <a href="" class="menuPrincipal__link">Skills</a>
-                <a href="" class="menuPrincipal__link">Hobbies</a>
-                <a href="" class="menuPrincipal__link">Formación</a>
-                <a href="" class="menuPrincipal__link">Proyectos</a>
-                <a href="" class="menuPrincipal__link contacto">frine.mg@hotmail.com</a>
+                <a href="#sobreMi" class="menuPrincipal__link">Sobre mi</a>
+                <a href="#skills" class="menuPrincipal__link">Skills</a>
+                <a href="#hobbies" class="menuPrincipal__link">Hobbies</a>
+                <a href="#formacion" class="menuPrincipal__link">Formación</a>
+                <a href="#experiencia" class="menuPrincipal__link">Proyectos</a>
+                <a href="#contacto" class="menu__contacto">frine.mg@hotmail.com</a>
             </nav>
         </div>
     </header>
     <main>
         <section class="introduccion">
-            <div class="container">
+            <div class="container container_introduccion">
                 <div class="introduccion_resumen">
                     <h1 class="introduccion__titulo">Hola, mi nombre es Frine Marin Gomez y construyo paginas web</h1>
                     <p class="introduccion__parrafo">Soy estudiante de Ingeniería en Sistemas Computacionales y
                         actualmente estoy participando en el
                         proyecto Oracle ONE en Alura Latam</p>
                     <nav class="redesSociales">
-                        <a class="redesSociales__link" href="">Github &#8599</a>
+                        <a class="redesSociales__link" href="https://github.com/FrineMarin" target="_blank" rel="noopener noreferrer"> Github &#8599</a>
                         <a class="redesSociales__link" href="">LinkedIn &#8599</a>
-                        <a class="redesSociales__link" href="">Instagram &#8599</a>
                         <a class="redesSociales__link" href="">Curriculo &#8599</a>
 
                     </nav>
@@ -59,23 +60,23 @@
                     alt="Foto de mi, una persona con cabello chino y lentes">
             </div>
         </section>
-        <section class="sobreMi">
+        <section id="sobreMi" class="sobreMi">
             <div class="container">
                 <h2>Sobre mi</h2>
-                <p class="sobreMi__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
-                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
-                    Suspendisse potenti. Ut semper sagittis ligula et lacinia.
+                <p class="sobreMi__parrafo">Me llamo Frine Marín, tengo 21 años y vivo en México. Actualmente estoy
+                    cursando la carrera de Ingenieria en Sistemas Computacionales. Me encuentro en los primeros
+                    semestres, estudiando JavaScript, CSS y Java.
                 </p>
-                <p class="sobreMi__parrafo"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
-                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
-                    Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas
-                    metus vitae, aliquet metus.</p>
+                <p class="sobreMi__parrafo"> Mis inicios en la programación fueron completamente autodidactas,
+                    posteriormente decidi formalizar mis estudios matriculandome en una universidad.</p>
+                <p class="sobreMi__parrafo">Actualmente me encuentro buscando mi primera experiencia laboral para
+                    comenzar a adentrarme en el desarrollo web a nivel profesional.</p>
                 <img class="firma" src="elementos/firma.png" alt="Mi firma">
             </div>
         </section>
         <section class="skillsyHobbies">
             <div class="container">
-                <h2>Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <ul class="syh__lista">
                     <li class="item">
                         <img src="elementos/HTML.svg" alt="" class="item__icon">
@@ -90,22 +91,19 @@
                         <h4 class="item__titulo">CSS</h4>
                     </li>
                     <li class="item">
-                        <img src="" alt="" class="item__icon">
+                        <img src="elementos/icons8-java.svg" alt="" class="item__icon">
                         <h4 class="item__titulo">Java</h4>
                     </li>
                     <li class="item">
-                        <img src="" alt="" class="item__icon">
-                        <h4 class="item__titulo"></h4>
+                        <img src="elementos/icons8-mysql-50.png" alt="" class="item__icon">
+                        <h4 class="item__titulo">MySQL</h4>
                     </li>
-                    <li class="item">
-                        <img src="" alt="" class="item__icon">
-                        <h4 class="item__titulo"></h4>
-                    </li>
+
                 </ul>
-                <h2>Hobbies</h2>
+                <h2 id="hobbies">Hobbies</h2>
                 <ul class="syh__lista">
                     <li class="item">
-                        <img class="item__icon" src="" alt="">
+                        <img class="item__icon" src="elementos/pencil.png" alt="">
                         <h4 class="item__titulo">Dibujar</h4>
                     </li>
                     <li class="item">
@@ -113,45 +111,42 @@
                         <h4 class="item__titulo">Escuchar música</h4>
                     </li>
                     <li class="item">
-                        <img class="item__icon" src="" alt="">
+                        <img class="item__icon" src="elementos/book.png" alt="">
                         <h4 class="item__titulo">Leer</h4>
                     </li>
                     <li class="item">
-                        <img class="item__icon" src="" alt="">
-                        <h4 class="item__titulo">Coser</h4>
+                        <img class="item__icon" src="elementos/camera.png" alt="">
+                        <h4 class="item__titulo">Fotografia</h4>
                     </li>
                     <li class="item">
                         <img class="item__icon" src="elementos/series.svg" alt="">
                         <h4 class="item__titulo">Ver peliculas</h4>
                     </li>
-                    <li class="item">
-                        <img class="item__icon" src="" alt="">
-                        <h4 class="item__titulo">Coser</h4>
-                    </li>
+
                 </ul>
             </div>
         </section>
-        <section class="formacionAcademica">
+        <section id="formacion" class="formacionAcademica">
             <div class="container">
                 <h2 class="tituloCentrado">Formacion académica</h2>
                 <ul class="formacion__lista">
-                    <li>
+                    <li class="formacion__item">
                         <div class="formacion__logo">
                             <img src="elementos/alura.svg" alt="">
                         </div>
                         <h3>Formacion Front-End UI</h3>
                         <p class="subtitulos">En curso</p>
                     </li>
-                    <li class="sistemasComputacionales">
+                    <li class="formacion__item">
                         <div class="formacion__logo">
                             <img src="elementos/uveg.jpg" alt="">
                         </div>
                         <h3>Ingenieria en Sistemas Computacionales</h3>
                         <p class="subtitulos">En curso</p>
                     </li>
-                    <li>
+                    <li class="formacion__item">
                         <div class="formacion__logo">
-                            <img id="universidad" src="elementos/university-of-helsinki.svg" alt="">
+                            <img  src="elementos/university-of-helsinki.svg" alt="">
                         </div>
                         <h3>Java Programming I</h3>
                         <p class="subtitulos">MOOC - En curso</p>
@@ -159,7 +154,7 @@
                 </ul>
             </div>
         </section>
-        <section class="experiencia">
+        <section id="experiencia" class="experiencia">
             <div class="container">
                 <h2 class="tituloCentrado">Experiencia profesional</h2>
                 <div class="experiencia__paginas">
@@ -167,26 +162,42 @@
                     <div class="experiencia__descripcion">
                         <h3>Encriptador de texto </h3>
                         <p class="subtitulos">Challenge Alura Codificador.<br>Creado con HTML, CSS y JavaScript</p>
-                        <ul class=" ">
-                            <button class="boton boton-transparente">Repositorio</button>
-                            <button class="boton boton-azul">Ver demo</button>
+                        <ul class="">
+                            <a href="https://github.com/FrineMarin/Sprint-01-Alura-Encriptador" target="_blank"
+                                rel="noopener noreferrer">
+                                <button class="boton boton-transparente">Repositorio</button>
+                            </a>
+
+                            <a href="https://frinemarin.github.io/Sprint-01-Alura-Encriptador/" target="_blank"
+                                rel="noopener noreferrer">
+                                <button class="boton boton-azul">Ver demo</button>
+                            </a>
                         </ul>
                     </div>
                 </div>
+
                 <div class="experiencia__paginas">
                     <div class="experiencia__descripcion">
                         <h3>Juego del ahorcado</h3>
                         <p class="subtitulos">Challenge Oracle.<br>Creado con HTML, CSS y JavaScript</p>
                         <ul>
-                            <button class="boton boton-transparente">Repositorio</button>
-                            <button class="boton boton-azul">Ver demo</button>
+                            <a href="https://github.com/FrineMarin/Sprint-02-Alura-Juego-del-ahorcado" target="_blank"
+                                rel="noopener noreferrer">
+                                <button class="boton boton-transparente">Repositorio</button>
+
+                            </a>
+                            <a href="https://frinemarin.github.io/Sprint-02-Alura-Juego-del-ahorcado/" target="_blank"
+                                rel="noopener noreferrer">
+                                <button class="boton boton-azul">Ver demo</button>
+                            </a>
+
                         </ul>
                     </div>
                     <img src="elementos/ahorcado.png" alt="" class="experiencia__imagen">
                 </div>
             </div>
         </section>
-        <section class="contacto">
+        <section id="contacto" class="contacto">
             <div class="container">
                 <img class="contacto__imagen" src="elementos/contacto.png" alt="">
                 <div class="contacto__formulario">
@@ -198,21 +209,25 @@
                                 en contacto con usted lo antes posible.</legend>
                             <div class="campo">
                                 <label class="campo__etiqueta" for="nombre">Nombre</label>
-                                <input class="campo__input" name="nombre" type="text" placeholder="Nombre" data-tipo="nombre" required maxlength="50" >
+                                <input class="campo__input" name="nombre" type="text" placeholder="Nombre"
+                                    data-tipo="nombre" required maxlength="50">
                                 <span class="input-message-error"></span>
                             </div>
                             <div class="campo">
-                                <label  class="campo__etiqueta" for="email">Email</label>
-                                <input class="campo__input" name="email" type="email" placeholder="email@ejemplo.com" required data-tipo="email" class="input">
-                                
+                                <label class="campo__etiqueta" for="email">Email</label>
+                                <input class="campo__input" name="email" type="email" placeholder="email@ejemplo.com"
+                                    required data-tipo="email" class="input">
+
                                 <span class="input-message-error"></span>
                             </div>
                             <div class="campo">
-                                <input class="campo__input" type="text" placeholder="Asunto" data-tipo="asunto" required maxlength="50">
-                                <span class="input-message-error" ></span>
+                                <input class="campo__input" type="text" placeholder="Asunto" data-tipo="asunto" required
+                                    maxlength="50">
+                                <span class="input-message-error"></span>
                             </div>
                             <div class="campo" id="campo__mensaje">
-                                <textarea rows="5" type="text" placeholder="Mensaje"></textarea>
+                                <textarea class="campo__textarea" rows="5" type="text" placeholder="Mensaje"
+                                    data-tipo="mensaje" required maxlength="300"></textarea>
                                 <span class="input-message-error"></span>
                             </div>
                         </fieldset>
@@ -223,10 +238,11 @@
             </div>
         </section>
     </main>
-    <footer>
-        <p>Desarrollado por Frine Marín Gómez</p>
-        <p>2023</p>
+    <footer class="footer">
+        <p>Desarrollado por Frine Marín Gómez<br>
+            2023</p>
     </footer>
     <script src="./js/app.js" type="module"></script>
 </body>
+
 </html>

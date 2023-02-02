@@ -67,3 +67,17 @@ fieldset{
     padding: 0;
 }
 
+@media screen and (max-width:1007px){
+    .container{
+        width: 90%;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .subtitulos{
+        font-size: .9rem;
+    }
+}
+
